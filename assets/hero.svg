@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 30px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; fill: #f8fafc; letter-spacing: -0.5px; }
+      .sub { font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; fill: #94a3b8; }
+      .pill { font: 600 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #fbbf24; }
+      .code { font: 500 13px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #e2e8f0; }
+      .dim { fill: #64748b; }
+      .grn { fill: #4ade80; }
+      .ylw { fill: #fbbf24; }
+      .blu { fill: #38bdf8; }
+    </style>
+  </defs>
+  <rect width="920" height="220" rx="14" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
+  <g transform="translate(36, 38)">
+    <rect x="0" y="0" width="142" height="24" rx="12" fill="#1c1917" stroke="#fbbf24" stroke-width="1"/>
+    <text x="14" y="16" class="pill">HOMEBREW TAP</text>
+    <text x="0" y="62" class="title">elix1er/tap</text>
+    <text x="0" y="90" class="sub">Prebuilt universal macOS formulae (arm64 + x86_64)</text>
+    <text x="0" y="112" class="sub">for token-minimal developer &amp; agentic CLI tools.</text>
+  </g>
+  <g transform="translate(460, 26)">
+    <rect width="428" height="168" rx="10" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="18" cy="16" r="5" fill="#ef4444"/>
+    <circle cx="34" cy="16" r="5" fill="#f59e0b"/>
+    <circle cx="50" cy="16" r="5" fill="#10b981"/>
+    <text x="165" y="20" class="code dim">brew — zsh</text>
+    <line x1="0" y1="32" x2="428" y2="32" stroke="#1e293b"/>
+    <text x="16" y="58" class="code"><tspan class="ylw">$</tspan> brew install elix1er/tap/axmd</text>
+    <text x="16" y="80" class="code dim">==&gt; Installing axmd from elix1er/tap</text>
+    <text x="16" y="100" class="code"><tspan class="grn">✔</tspan> /opt/homebrew/Cellar/axmd/0.1.0 (241.5KB)</text>
+    <text x="16" y="126" class="code"><tspan class="blu">$</tspan> axmd Safari --grep "Sign in"</text>
+    <text x="16" y="146" class="code"><tspan class="ylw">12</tspan> b "Sign in"</text>
+  </g>
+</svg>
